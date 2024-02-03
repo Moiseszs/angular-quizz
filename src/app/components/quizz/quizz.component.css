@@ -1,0 +1,40 @@
+main{
+ text-align: center;
+ width: 90%;
+ box-shadow: 13px 10px 15px -3px rgba(0,0,0,0.1);
+ margin: auto;
+ height: 300px;
+ padding: 10px;
+}
+
+h3{
+  font-weight: 400;
+}
+
+.questions-container{
+  margin-top: 5%;
+}
+
+.questions-container button{
+  margin: 2px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 10px;
+  &:hover{
+    background-color: aliceblue;
+  }
+}
+
+.result{
+  padding: 40px;
+}
+
+.retry-btn{
+  margin: 2px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 10px;
+  &:hover{
+    background-color: rgb(147, 214, 120);
+  }
+}
